@@ -7,7 +7,7 @@ export const Middle = () => {
       <>
     <div className='flex space-x-5 '>
         <div className='flex justify-start ml-16 '>
-            <div className=' rounded-lg bg-[#FFFFFF] p-2 flex w-[660px] p-3'>
+            <div className=' rounded-lg bg-[#FFFFFF]  flex w-[660px] p-4'>
                 <div className='w-[60%] flex flex-col justify-between pt-3 pl-2'>
                     <div className='pb-5'>
                         <p className='text-[16px] text-gray-500 font-semibold pb-1 '>Build by developers</p>
@@ -15,11 +15,11 @@ export const Middle = () => {
                         <p className='text-[16px] text-[#78839A] w-[80%] '>From colors, cards, typography to complex elements, you will find the full documentation.</p>
                     </div>
                     <div>
-                        <button className='text-[16px] text-gray-500 font-semibold flex space-x-1 pb-2 '>
+                        <button className='text-[14px] text-gray-500 font-semibold flex space-x-1 pb-2 '>
                             <div>
                                 Read More
                             </div>
-                            <div className='pt-[6px]'>
+                            <div className='pt-[5px]'>
                                 <FaArrowRight />
                             </div>
                         </button> 
@@ -35,7 +35,7 @@ export const Middle = () => {
 
               {/* new comp */}
   
-    <div className='relative rounded-lg p-3 bg-white w-[500px]'>
+    <div className='relative rounded-lg p-4 bg-white w-[500px]'>
   <div className='relative h-[220px]  '>
     <img
       className='h-[220px] w-[100%] object-cover rounded-lg '
@@ -50,9 +50,9 @@ export const Middle = () => {
         </p>
       </div>
       <div>
-        <button className='text-[16px] text-white font-semibold flex space-x-1'>
+        <button className='text-[14px] text-white font-semibold flex space-x-1'>
           <div>Read More</div>
-          <div className='pt-[6px]'>
+          <div className='pt-[5px]'>
             <FaArrowRight />
           </div>
         </button>
