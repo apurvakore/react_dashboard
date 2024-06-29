@@ -4,11 +4,13 @@ import growthData from '../data/growth'
 import { GrowthItem } from './GrowthItem'
 
 
+
 export const Growth = () => {
 
   return (
-      <div>
-        <div className="flex justify-center align items-center space-x-6 h-[100vh]  ">
+    <div>
+     
+        <div className="flex justify-center items-start space-x-6  p-10  ">
         {growthData.map((data, index) => (
             <GrowthItem
                 key={index}
@@ -18,7 +20,9 @@ export const Growth = () => {
                 icon={data.icon}
             />
         ))}
-        </div>
+      </div>
+    
+      
     </div>
   )
 }
