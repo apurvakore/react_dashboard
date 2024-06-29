@@ -1,6 +1,7 @@
 import './App.css';
 import { Growth } from './components/Growth';
 import { Middle } from './components/Middle';
+import { Navbar } from './components/Navbar';
 import SidePanel from './components/SidePanel';
 
 
@@ -12,7 +13,8 @@ function App() {
         <div className="">
           <SidePanel/>
         </div>
-        <div className="">        
+        <div className=""> 
+          <Navbar/>  
           <Growth />
           <Middle/>
         </div>
