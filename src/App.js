@@ -1,5 +1,6 @@
 import './App.css';
 import ActiveUser from './components/ActiveUser';
+import Credits from './components/Credits';
 import { Growth } from './components/Growth';
 import { Middle } from './components/Middle';
 import { Navbar } from './components/Navbar';
@@ -28,6 +29,7 @@ function App() {
           <div className='w-[65%]'><Projects/></div>
           <div className="w-[35%]"><OrderReview /></div>
         </div>
+        <Credits/>
       </div>
     </div>
   );
