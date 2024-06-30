@@ -10,7 +10,7 @@ import { FaBell } from "react-icons/fa";
 export const Navbar = () => {
   return (
     <>
-          <div className='pt-3 bg-[#F8F9FA] '>
+          <div className='pt-3 '>
                 <div className='ml-7 p-4 flex justify-between'>
                     <div>
                       <div className='flex space-x-2 pt-[2px]'>

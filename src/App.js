@@ -2,6 +2,7 @@ import './App.css';
 import { Growth } from './components/Growth';
 import { Middle } from './components/Middle';
 import { Navbar } from './components/Navbar';
+import { OrderReview } from './components/OrderReview';
 import SidePanel from './components/SidePanel';
 
 
@@ -9,14 +10,16 @@ import SidePanel from './components/SidePanel';
 function App() {
   return (
     <>
-        <div className='flex'>
-          <div className="w-[20%] z-10">
+        <div className='flex bg-[#F4F5F6]'>
+          <div className="">
             <SidePanel/>
           </div>
-          <div className="w-[80%] pb-10"> 
+          <div className=""> 
             <Navbar/>  
             <Growth />
-            <Middle/>
+          <Middle />
+          <OrderReview/>
+          
           </div>
         </div>
     </>

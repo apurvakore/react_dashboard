@@ -21,7 +21,7 @@
     };
 
     return (
-      <div className='w-[270px] bg-[#F7F9FB] flex flex-col h-screen overflow-y-auto'>
+      <div className='w-[100%] bg-[#F7F9FB] flex flex-col h-screen overflow-y-auto'>
         <div className="flex flex-col justify-start pt-6 px-5 w-full">
           <div className="flex items-center pb-4 px-3 border-b">
             <div className="icon rotate-180 text-4xl text-[#353536] p-1 font-bold"><CiBoxes/></div>
