@@ -16,11 +16,11 @@ function App() {
         <Navbar/>  
         <Growth />
         <Middle />
-        <div className="flex mt-4">
-          <div className="w-[40%]">
+        <div className="flex mt-4 space-x-6">
+          <div className="w-[40%] 2xl:w-[45%]">
             <ActiveUser/>
           </div>
-          <div className="w-[60%]">
+          <div className="w-[60%] 2xl:w-[55%]">
             <SalesOverview/>
           </div>
         </div>

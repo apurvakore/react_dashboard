@@ -7,12 +7,6 @@ import { CiCreditCard1 } from "react-icons/ci";
 import { IoMdKey } from "react-icons/io";
 import { BiSolidDollarCircle } from "react-icons/bi";
 
-
-
-
-
-
-
 export const OrderReview = () => {
   return (
       <div className=' rounded-lg my-7 p-4 bg-white '>
