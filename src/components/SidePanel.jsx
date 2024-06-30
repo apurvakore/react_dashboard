@@ -20,7 +20,7 @@ const SidePanel = () => {
   };
 
   return (
-    <div className='fixed top-0 left-0 w-[20%] h-screen bg-[#F7F9FB] flex flex-col overflow-y-auto'>
+    <div className='fixed top-0 left-0 w-[20%] 2xl:w-[18%] h-screen bg-[#F7F9FB] flex flex-col overflow-y-auto'>
       <div className="flex flex-col justify-start pt-6 px-5 w-full">
         <div className="flex items-center pb-4 px-3 border-b">
           <div className="icon rotate-180 text-4xl text-[#353536] p-1 font-bold"><CiBoxes/></div>

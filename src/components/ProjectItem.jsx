@@ -7,7 +7,7 @@ export const ProjectItem = ({ image, title, icon1, icon2, icon3, icon4, budget, 
   };
 
   return (
-    <div className="row px-4 flex space-x-2 border-b py-1">
+    <div className="row px-4 flex space-x-2 border-t py-1">
       <div className="col-1 w-[45%] flex space-x-2 items-center justify-start">
         <img className="w-[40px]" src={image} alt={title} />
         <div className="text-sm font-semibold text-[#344767]">{title}</div>

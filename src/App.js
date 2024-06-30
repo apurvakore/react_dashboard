@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='flex bg-[#F4F5F6]'>
       <SidePanel />
-      <div className="flex-1 ml-[20%] px-5 2xl:px-8 overflow-x-hidden"> 
+      <div className="flex-1 ml-[20%] 2xl:ml-[18%] px-5 2xl:px-8 overflow-x-hidden"> 
         <Navbar/>  
         <Growth />
         <Middle />
@@ -24,7 +24,7 @@ function App() {
             <SalesOverview/>
           </div>
         </div>
-        <div className='flex h-[570px] mb-16'>
+        <div className='flex h-[550px] mb-16'>
           <div className='w-[65%]'><Projects/></div>
           <div className="w-[35%]"><OrderReview /></div>
         </div>
