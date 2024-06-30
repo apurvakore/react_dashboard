@@ -10,7 +10,7 @@ export const Growth = () => {
   return (
     <div>
      
-        <div className="flex justify-center items-start space-x-6  p-10  ">
+        <div className="flex justify-center items-start space-x-7  p-10 pl-9 pt-6 pb-6 bg-[#F5F6F7] ">
         {growthData.map((data, index) => (
             <GrowthItem
                 key={index}

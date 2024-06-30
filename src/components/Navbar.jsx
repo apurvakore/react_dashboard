@@ -10,7 +10,7 @@ import { FaBell } from "react-icons/fa";
 export const Navbar = () => {
   return (
     <>
-          <div className='pt-4 '>
+          <div className='pt-3 bg-[#F8F9FA] '>
                 <div className='ml-7 p-4 flex justify-between'>
                     <div>
                       <div className='flex space-x-2 pt-[2px]'>
@@ -24,22 +24,11 @@ export const Navbar = () => {
 
                     <div className='flex space-x-3 justify-center items-center'>
             
-
-
-                        {/* <div className='p-[6px] rounded-lg border border-gray-300 bg-white w-[220px] flex  '>
-                          <div className='p-1'>
-                          <FaSearch className='mt-[2px] text-[#344767] text-sm' />
-                          </div>
-                          <div>
-                          <input className='px-1  ml-1 text-sm text-[#AAB2BF] outline-none '  type="text" placeholder='Type here...' />
-                          </div>
-                        </div> */}
-            
                   <div className='flex bg-white  rounded-lg border border-gray-300 w-[220px]'>
                   <div className='p-3'>
-                    <div>
+                  
                   <FaSearch />
-                  </div>
+                  
                     </div>
               <div className='pt-[8px] pb-[8px] rounded-lg rounded-l-none '>
                

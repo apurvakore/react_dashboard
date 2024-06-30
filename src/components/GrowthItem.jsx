@@ -7,7 +7,7 @@ export const GrowthItem = ({ title, number, growth, icon }) => {
     return (
         <>
 
-                <div className=' rounded-lg pt-2 pl-3 pr-3 pb-2 flex  items-center space-x-20 w-fit h-fit bg-[#FFFFFF]'>
+                <div className=' rounded-[10px]  pl-4 pr-4 pb-3 pt-3 flex  items-center space-x-20 w-fit h-fit bg-[#FFFFFF]'>
                     <div>
                         <p className='text-gray-500 font-bold text-[16px] '>{title}</p>
                         <div className='flex items-baseline'>

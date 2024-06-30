@@ -9,7 +9,7 @@ import SidePanel from './components/SidePanel';
 function App() {
   return (
     <>
-        <div className='bg-[#EFF0F1] flex'>
+        <div className='flex'>
           <div className="">
             <SidePanel/>
           </div>

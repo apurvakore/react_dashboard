@@ -5,8 +5,8 @@ import { FaPlane } from "react-icons/fa";
 export const Middle = () => {
   return (
       <>
-    <div className='flex space-x-5 '>
-        <div className='flex justify-start ml-16 '>
+    <div className='flex space-x-5 bg-[#F3F4F5] '>
+        <div className='flex justify-start ml-8 '>
             <div className=' rounded-lg bg-[#FFFFFF]  flex w-[660px] p-4'>
                 <div className='w-[60%] flex flex-col justify-between pt-3 pl-2'>
                     <div className='pb-5'>
