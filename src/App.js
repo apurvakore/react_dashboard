@@ -3,6 +3,7 @@ import { Growth } from './components/Growth';
 import { Middle } from './components/Middle';
 import { Navbar } from './components/Navbar';
 import { OrderReview } from './components/OrderReview';
+import { Projects } from './components/Projects';
 import SidePanel from './components/SidePanel';
 
 function App() {
@@ -14,10 +15,8 @@ function App() {
         <Growth />
         <Middle />
         <div className='flex '>
-          <div className='w-[65%]'></div>
-          <div className="w-[35%]">
-            <OrderReview />
-          </div>
+          <div className='w-[65%]'><Projects/></div>
+          <div className="w-[35%]"><OrderReview /></div>
         </div>
       </div>
     </div>
