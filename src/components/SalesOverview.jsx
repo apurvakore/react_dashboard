@@ -13,7 +13,7 @@ const SalesOverview = () => {
                 </div>
             </div>
             <div className="image-part py-5 ">
-                <img className='w-[100%] h-[100%]' src="https://i.ibb.co/qRfBYYt/download-2.png" alt="" />
+                <img className='w-[100%]' src="https://i.ibb.co/qRfBYYt/download-2.png" alt="" />
             </div>
         </div>
     </div>
