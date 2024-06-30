@@ -9,15 +9,15 @@ import SidePanel from './components/SidePanel';
 function App() {
   return (
     <>
-        <div className='bg-[#EFF0F1] pb-10 flex'>
-        <div className="">
-          <SidePanel/>
-        </div>
-        <div className=""> 
-          <Navbar/>  
-          <Growth />
-          <Middle/>
-        </div>
+        <div className='bg-[#EFF0F1] flex'>
+          <div className="">
+            <SidePanel/>
+          </div>
+          <div className=""> 
+            <Navbar/>  
+            <Growth />
+            <Middle/>
+          </div>
         </div>
     </>
   );
