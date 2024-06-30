@@ -1,9 +1,11 @@
 import './App.css';
+import ActiveUser from './components/ActiveUser';
 import { Growth } from './components/Growth';
 import { Middle } from './components/Middle';
 import { Navbar } from './components/Navbar';
 import { OrderReview } from './components/OrderReview';
 import { Projects } from './components/Projects';
+import SalesOverview from './components/SalesOverview';
 import SidePanel from './components/SidePanel';
 
 function App() {
@@ -14,6 +16,14 @@ function App() {
         <Navbar/>  
         <Growth />
         <Middle />
+        <div className="flex">
+          <div className="w-[40%]">
+            <ActiveUser/>
+          </div>
+          <div className="w-[60%]">
+            <SalesOverview/>
+          </div>
+        </div>
         <div className='flex '>
           <div className='w-[65%]'><Projects/></div>
           <div className="w-[35%]"><OrderReview /></div>
