@@ -10,10 +10,10 @@ function App() {
   return (
     <>
         <div className='flex'>
-          <div className="">
+          <div className="w-[20%] z-10">
             <SidePanel/>
           </div>
-          <div className=""> 
+          <div className="w-[80%] pb-10"> 
             <Navbar/>  
             <Growth />
             <Middle/>
