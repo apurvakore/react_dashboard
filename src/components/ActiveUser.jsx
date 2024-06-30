@@ -7,7 +7,7 @@ import { IoExtensionPuzzle } from "react-icons/io5";
 
 const ActiveUser = () => {
   return (
-    <div className='bg-white p-5 pb-12 rounded-lg'>
+    <div className='bg-white h-[100%] p-5 pb-12 rounded-lg'>
         <div className="img-part rounded-lg p-2 py-4 bg-gradient-to-br from-[#373E6A] to-[#151829]">
             <img className='w-[100%]' src="https://i.ibb.co/NrCm8Fx/download-1.png" alt="" />
         </div>
