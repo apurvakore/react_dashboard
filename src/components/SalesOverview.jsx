@@ -3,7 +3,7 @@ import { FaArrowUp } from "react-icons/fa";
 
 const SalesOverview = () => {
   return (
-    <div className='p-8 bg-white h-[100%] rounded-lg'>
+    <div className='p-8 bg-white h-[100%] rounded-xl'>
         <div className="flex flex-col">
             <div className="text part">
                 <h1 className='font-semibold text-[#344767] mb-3'>Sales Overview</h1>

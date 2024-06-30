@@ -24,7 +24,7 @@ function App() {
             <SalesOverview/>
           </div>
         </div>
-        <div className='flex '>
+        <div className='flex h-[570px] mb-16'>
           <div className='w-[65%]'><Projects/></div>
           <div className="w-[35%]"><OrderReview /></div>
         </div>
