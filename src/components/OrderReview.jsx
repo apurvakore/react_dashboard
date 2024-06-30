@@ -29,54 +29,54 @@ export const OrderReview = () => {
               </div>
               <span className='text-[#344767] font-semibold'>$2400, Design changes</span>     
           </div>
-          <div className='pl-[7px]' >
-              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black pl-6 border-[#DEE2E6]'>22 DEC 7:20 PM</h6>
+          <div className='pl-[8px]' >
+              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black pl-[24px] border-[#DEE2E6]'>22 DEC 7:20 PM</h6>
           </div>
           <div className='mt-4 flex space-x-4'>
               <div className='mt-1'>
-              <MdDelete className='text-[#F4343E]' />
+              <MdDelete className='text-[#F4343E] text-lg' />
               </div>
               <span className='text-[#344767] font-semibold'>New order #1832412</span>     
           </div>
-          <div className='pl-[7px]' >
-              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black pl-6 border-[#DEE2E6]'>21 DEC 11 PM</h6>
+          <div className='pl-[8px]' >
+              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black  pl-[24px] border-[#DEE2E6]'>21 DEC 11 PM</h6>
           </div>
           <div className='mt-4 flex space-x-4'>
               <div className='mt-1'>
-              <FaShoppingCart  className='text-[#1F61F1]'/>
+              <FaShoppingCart  className='text-[#1F61F1] text-lg'/>
               </div>
               <span className='text-[#344767] font-semibold'>Server payments for April</span>     
           </div>
-          <div className='pl-[7px]' >
-              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black pl-6 border-[#DEE2E6]'>21 DEC 9:34 PM</h6>
+          <div className='pl-[8px]' >
+              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black  pl-[25px] border-[#DEE2E6]'>21 DEC 9:34 PM</h6>
           </div>
           <div className='mt-4 flex space-x-4'>
               <div className='mt-1'>
-              <CiCreditCard1 className='text-[#F89035]' />
+              <CiCreditCard1 className='text-[#F89035] text-lg' />
               </div>
               <span className='text-[#344767] font-semibold'>New card added for order #4395133</span>     
           </div>
-          <div className='pl-[7px]' >
-              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black pl-6 border-[#DEE2E6]'>20 DEC 2:20 AM</h6>
+          <div className='pl-[8px]' >
+              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black  pl-[25px] border-[#DEE2E6]'>20 DEC 2:20 AM</h6>
           </div>
           <div className='mt-4 flex space-x-4'>
               <div className='mt-1'>
-              <IoMdKey className='text-[#B915A6]'/>
+              <IoMdKey className='text-[#B915A6] text-xl'/>
               </div>
               <span className='text-[#344767] font-semibold'>New card added for order #4395133</span>     
           </div>
-          <div className='pl-[7px]' >
-              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black pl-6 border-[#DEE2E6]'>18 DEC 4:54 AM</h6>
+          <div className='pl-[8px]' >
+              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black  pl-[28px] border-[#DEE2E6]'>18 DEC 4:54 AM</h6>
           </div>
           <div className='mt-4 flex space-x-4'>
               <div className='mt-1'>
-              <BiSolidDollarCircle />
+              <BiSolidDollarCircle className='text-lg' />
 
               </div>
               <span className='text-[#344767] font-semibold'>New order #9583120s</span>     
           </div>
-          <div className='pl-[7px]' >
-              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black pl-6 border-[#DEE2E6]'>17 DEC</h6>
+          <div className='pl-[8px]' >
+              <h6 className='text-[#79849B] font-semibold text-xs border border-l-2 border-t-0 border-b-0 border-r-0 border-black  pl-[25px] border-[#DEE2E6]'>17 DEC</h6>
           </div>
     </div>
   )
