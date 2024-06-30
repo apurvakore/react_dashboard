@@ -9,7 +9,7 @@ export const Growth = () => {
 
   return (
     <div className='w-[100%]'>
-        <div className="flex justify-between items-start space-x-7 pt-6 pb-6 bg-[#F5F6F7] ">
+        <div className="flex justify-between items-start space-x-6 pt-6 pb-6 bg-[#F5F6F7] ">
           {growthData.map((data, index) => (
               <GrowthItem
                   key={index}

@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";;
 export const Middle = () => {
   return (
     <>
-    <div className='flex space-x-5 pb-5 bg-[#F3F4F5] '>
+    <div className='flex space-x-5 bg-[#F3F4F5] '>
       <div className='flex justify-start w-[50%]'>
           <div className=' rounded-lg bg-[#FFFFFF]  flex w-[100%] p-4'>
             <div className='w-[60%] flex flex-col justify-between pt-3 pl-2'>

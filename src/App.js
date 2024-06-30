@@ -13,7 +13,12 @@ function App() {
         <Navbar/>  
         <Growth />
         <Middle />
-        <OrderReview/>
+        <div className='flex '>
+          <div className='w-[65%]'></div>
+          <div className="w-[35%]">
+            <OrderReview />
+          </div>
+        </div>
       </div>
     </div>
   );
