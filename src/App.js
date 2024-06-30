@@ -16,7 +16,7 @@ function App() {
         <Navbar/>  
         <Growth />
         <Middle />
-        <div className="flex">
+        <div className="flex mt-4">
           <div className="w-[40%]">
             <ActiveUser/>
           </div>
