@@ -4,14 +4,14 @@ import { FaArrowRight } from "react-icons/fa6";;
 export const Middle = () => {
   return (
     <>
-    <div className='flex space-x-5 pr-4 pb-5 bg-[#F3F4F5] '>
-      <div className='flex justify-start ml-8 w-[50%]'>
+    <div className='flex space-x-5 pb-5 bg-[#F3F4F5] '>
+      <div className='flex justify-start w-[50%]'>
           <div className=' rounded-lg bg-[#FFFFFF]  flex w-[100%] p-4'>
             <div className='w-[60%] flex flex-col justify-between pt-3 pl-2'>
               <div className='pb-5'>
                   <p className='text-[16px] text-gray-500 font-semibold pb-1 '>Build by developers</p>
                   <p className='text-[20px] text-gray-700 font-bold pb-1'>Soft UI Dashboard</p>
-                  <p className='text-[16px] text-[#78839A] w-[80%] '>From colors, cards, typography to complex elements, you will find the full documentation.</p>
+                  <p className='text-[16px] text-[#78839A] w-[90%] 2xl:w-[80%] '>From colors, cards, typography to complex elements, you will find the full documentation.</p>
               </div>
               <div>
                 <button className='text-[14px] text-gray-500 font-semibold flex space-x-1 pb-2 '>

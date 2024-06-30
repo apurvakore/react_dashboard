@@ -11,14 +11,14 @@ function App() {
   return (
     <>
         <div className='flex bg-[#F4F5F6]'>
-          <div className="">
+          <div className="w-[20%]">
             <SidePanel/>
           </div>
-          <div className=""> 
+          <div className="w-[80%] px-5 2xl:px-8 "> 
             <Navbar/>  
             <Growth />
-          <Middle />
-          <OrderReview/>
+            <Middle />
+            <OrderReview/>
           
           </div>
         </div>

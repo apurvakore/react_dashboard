@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <>
           <div className='pt-3 '>
-                <div className='ml-7 p-4 flex justify-between'>
+                <div className=' py-4 flex justify-between'>
                     <div>
                       <div className='flex space-x-2 pt-[2px]'>
                         <IoMdHome className='text-[#96A0B1] mt-1  ' />
