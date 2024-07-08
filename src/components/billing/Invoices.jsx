@@ -4,7 +4,7 @@ import invoiceData from '../../data/billing/Invoice';
 
 const Invoices = () => {
   return (
-    <div className='p-5 bg-white rounded-xl '>
+    <div className='p-5 bg-white rounded-xl h-[100%] '>
         <div className='tab-name flex justify-between '>
             <div className="flex items-center font-semibold text-[#405270]">Invoices</div>
             <div className="">

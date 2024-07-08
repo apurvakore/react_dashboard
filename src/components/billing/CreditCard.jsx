@@ -34,7 +34,7 @@ export const CreditCard = () => {
                 </div>
             </div>
 
-            <div className='border mt-6  bg-white rounded-xl'>
+            <div className='py-2 mt-6  bg-white rounded-xl'>
                 <div className='flex justify-between my-4 mx-3 '>
                     <span className='text-[#344767] font-semibold text-[16px]'>Payment Method</span>
                     <div className='bg-gradient-to-br from-[#343A63] to-[#1F243D] py-[12px] px-[20px] rounded-lg  '>
@@ -46,15 +46,19 @@ export const CreditCard = () => {
                     </div>
                 </div>
                 <div className='mx-3 mb-4 flex'>
-                    <div className='border flex justify-center items-center  py-6 w-[50%] rounded-xl mr-4'>
-                        <img className='h-[26px] pr-[10px]' src="https://themewagon.github.io/soft-ui-dashboard-react/static/media/mastercard.27fca3e7637a9458fb64.png" alt="" />
-                        <span className='text-[#344767] font-semibold pr-24'>****  ****  ****  7852</span>
-                        <MdModeEdit className='text-[20px]' />
+                    <div className='border flex justify-between items-center  py-6 w-[50%] rounded-xl mr-4'>
+                        <img className='h-[26px] mx-3' src="https://themewagon.github.io/soft-ui-dashboard-react/static/media/mastercard.27fca3e7637a9458fb64.png" alt="" />
+                        <div className='text-[#344767] font-semibold'>****  ****  ****  7852</div>
+                        <div className="mx-3">
+                            <MdModeEdit className='text-[20px] text-[#344767]' />
+                        </div>
                     </div>
-                    <div className='border flex justify-center items-center  py-6 w-[50%] rounded-xl'>
-                        <img className='h-[26px] pr-[10px]' src="https://themewagon.github.io/soft-ui-dashboard-react/static/media/visa.71c0d5e9e2aaee42e4c3.png" alt="" />
-                        <span className='text-[#344767] font-semibold pr-24'>****  ****  ****  5248</span>
-                        <MdModeEdit className='text-[20px]' />
+                    <div className='border flex  justify-between items-center  py-6 w-[50%] rounded-xl'>
+                        <img className='h-[26px] mx-3' src="https://themewagon.github.io/soft-ui-dashboard-react/static/media/visa.71c0d5e9e2aaee42e4c3.png" alt="" />
+                        <div className='text-[#344767] font-semibold'>****  ****  ****  5248</div>
+                        <div className="mx-3">
+                            <MdModeEdit className='text-[20px] text-[#344767]' />
+                        </div>
                     </div>
                 </div>
             </div>
