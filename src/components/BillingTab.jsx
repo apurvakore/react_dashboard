@@ -8,7 +8,7 @@ export const BillingTab = () => {
   return (
       <>
           <div className='flex'>
-              <div className='w-[65%] h-[400px]  mr-6'>
+              <div className='w-[65%] h-[400px]   mr-6'>
                 <CreditCard/>
               </div>
               <div className='w-[35%] h-[400px] '>
