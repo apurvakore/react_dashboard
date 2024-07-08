@@ -1,6 +1,6 @@
 import React from 'react'
 
-import growthData from '../data/growth'
+import growthData from '../../data/dashboard/growth'
 import { GrowthItem } from './GrowthItem'
 
 

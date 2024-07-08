@@ -1,6 +1,6 @@
 import React from 'react'
 import InvoiceItem from './InvoiceItem'
-import invoiceData from '../data/Invoice';
+import invoiceData from '../../data/billing/Invoice';
 
 const Invoices = () => {
   return (

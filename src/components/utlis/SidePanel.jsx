@@ -3,8 +3,8 @@ import { CiBoxes } from "react-icons/ci";
 import { FaStar } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 import SidePanelItem from './SidePanelItem';
-import sidePanelData from '../data/SidePanel';
-import accountPagesData from '../data/AccountPages';
+import sidePanelData from '../../data/utlis/SidePanel'
+import accountPagesData from '../../data/utlis/AccountPages';
 
 const SidePanel = () => {
   const [activeItemId, setActiveItemId] = useState(1); // Default to first item

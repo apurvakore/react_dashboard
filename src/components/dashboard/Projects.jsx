@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCheck } from "react-icons/fa6";
-import { ProjectItem } from './ProjectItem';
-import projectsData from '../data/Project';
+import { ProjectItem } from './ProjectItem'
+import projectsData from '../../data/dashboard/Project';
 
 
 
