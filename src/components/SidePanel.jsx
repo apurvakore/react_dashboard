@@ -1,22 +1,26 @@
 import React, { useState } from 'react';
 import { CiBoxes } from "react-icons/ci";
+import { FaStar } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 import SidePanelItem from './SidePanelItem';
 import sidePanelData from '../data/SidePanel';
 import accountPagesData from '../data/AccountPages';
-import { FaStar } from "react-icons/fa";
 
 const SidePanel = () => {
   const [activeItemId, setActiveItemId] = useState(1); // Default to first item
   const [accountPagesActiveItemId, setAccountPagesActiveItemId] = useState(0);
+  const navigate = useNavigate();
 
-  const handleItemClick = (id) => {
+  const handleItemClick = (id, path) => {
     setActiveItemId(id);
     setAccountPagesActiveItemId(0);
+    navigate(path);
   };
 
-  const handleAccountPagesItemClick = (id) => {
+  const handleAccountPagesItemClick = (id, path) => {
     setActiveItemId(0);
     setAccountPagesActiveItemId(id);
+    navigate(path);
   };
 
   return (
@@ -33,7 +37,7 @@ const SidePanel = () => {
               icon={item.icon}
               optionName={item.optionName}
               isActive={item.id === activeItemId}
-              onClick={() => handleItemClick(item.id)}
+              onClick={() => handleItemClick(item.id, item.path)}
             />
           ))}
         </div>
@@ -45,7 +49,7 @@ const SidePanel = () => {
               icon={item.icon}
               optionName={item.optionName}
               isActive={item.id === accountPagesActiveItemId}
-              onClick={() => handleAccountPagesItemClick(item.id)}
+              onClick={() => handleAccountPagesItemClick(item.id, item.path)}
             />
           ))}
         </div>

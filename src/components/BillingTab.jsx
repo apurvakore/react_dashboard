@@ -1,12 +1,15 @@
 import React from 'react'
+import { CreditCard } from './CreditCard'
 
 export const BillingTab = () => {
   return (
       <>
           <div className='flex'>
-              <div className='w-[70%] h-[400px] bg-blue-600'>hello</div>
+              <div className='w-[65%] h-[400px] bg-blue-600 mr-6'>
+                  <CreditCard/>
+              </div>
 
-              <div className='w-[30%] h-[400px] bg-blue-700'>hello</div>
+              <div className='w-[35%] h-[400px] bg-blue-700'>hello</div>
           </div>
 
     </>
