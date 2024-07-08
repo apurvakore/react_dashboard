@@ -2,6 +2,7 @@ import React from 'react'
 import { CreditCard } from './CreditCard'
 import Invoices from './Invoices'
 import { BillingInfo } from './BillingInfo'
+import Transcations from './Transcations'
 
 
 
@@ -21,8 +22,8 @@ export const BillingTab = () => {
             <div className='w-[60%] h-fit '>
               <BillingInfo/>
             </div>
-            <div className=''>
-
+            <div className='w-[40%] h-fit'>
+              <Transcations/>
             </div>
           </div>
     </div>
