@@ -1,5 +1,6 @@
 import React from 'react'
 import { CreditCard } from './CreditCard'
+import Invoices from './Invoices'
 
 
 
@@ -8,10 +9,11 @@ export const BillingTab = () => {
       <>
           <div className='flex'>
               <div className='w-[65%] h-[400px] border border-b-2 mr-6'>
-                  <CreditCard/>
+                <CreditCard/>
               </div>
-
-              <div className='w-[35%] h-[400px] bg-blue-700'>hello</div>
+              <div className='w-[35%] h-[400px] '>
+                <Invoices/>
+              </div>
           </div>
 
     </>
