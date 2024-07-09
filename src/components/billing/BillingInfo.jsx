@@ -4,7 +4,7 @@ import billingInfoData from '../../data/billing/billingInfo'; // Adjust the path
 
 export const BillingInfo = () => {
   return (
-    <div className='bg-white py-5 px-6 rounded-xl w-[100%]'>
+    <div className='bg-white py-5 px-6 rounded-xl w-[100%] h-[100%]'>
       <div className='text-[#344767] font-semibold mb-3 text-[17px]'>Billing Information</div>
       <div className='py-3 w-[100%]'>
         {billingInfoData.map((info, index) => (
