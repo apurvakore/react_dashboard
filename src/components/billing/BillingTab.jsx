@@ -2,6 +2,7 @@ import React from 'react'
 import { CreditCard } from './CreditCard'
 import Invoices from './Invoices'
 import { BillingInfo } from './BillingInfo'
+import Transcations from './Transcations'
 
 
 
@@ -18,11 +19,11 @@ export const BillingTab = () => {
               </div>
           </div>
           <div className='flex mt-8'>
-            <div className='w-[60%] h-fit '>
+            <div className='w-[60%]  '>
               <BillingInfo/>
             </div>
-            <div className=''>
-
+            <div className='w-[40%] '>
+              <Transcations/>
             </div>
           </div>
     </div>
