@@ -37,7 +37,7 @@ export const AuthorItem = ({profileImage, name, email, role, department, status,
             <div className="flex justify-center text-[12px] text-[#8392AB] font-semibold">{employedDate}</div>
         </div>
         <div className="col-5 w-[15%] flex justify-center">
-            <p className="text-sm flex items-center font-semibold text-[#8392AB]">Edit</p>
+            <p className="text-sm flex  items-center font-semibold text-[#8392AB]"><p className="cursor-pointer">Edit</p></p>
         </div>
     </div>
   );
