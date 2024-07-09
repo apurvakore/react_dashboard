@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaCheck } from "react-icons/fa6";
 import authorsData from '../../data/tables/Authors';
 import { AuthorItem } from './AuthorItem';
 
