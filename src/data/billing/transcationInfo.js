@@ -37,12 +37,12 @@ const transcationInfoData = {
             date: "26 March 2020, at 08:30 AM"
         },
         {
-            icon: <AiOutlineExclamationCircle className=" text-[24px] mt-1 text-[#344767]" />,
+            icon: <AiOutlineExclamationCircle className=" text-[22px] mt-1 text-[#344767]" />,
             name: "Webflow",
             price: "Pending",
             date: "26 March 2020, at 05:00 AM"
         }
-    ]
+    ] 
 };
 
 export default transcationInfoData;
