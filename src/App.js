@@ -1,7 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { BillingTab } from './components/billing/BillingTab';
-// import Credits from './components/utlis/Credits';
+import { BillingTab } from './components/billing/BillingTab'; import Credits from './components/utlis/Credits';
 import { Dashboard } from './components/dashboard/Dashboard';
 import { Navbar } from './components/utlis/Navbar';
 import SidePanel from './components/utlis/SidePanel';
@@ -21,7 +20,7 @@ function App() {
                 <Route path="/billing" element={<BillingTab />} /> 
                 <Route path="/tables" element={<TablesTab/>}/>
               </Routes>
-              {/* <Credits/> */}
+              <Credits/>
             </div>
         </div>
       </div>
