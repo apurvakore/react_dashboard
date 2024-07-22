@@ -107,7 +107,11 @@ export const Platform = () => {
             </div>
                   
         </div>
-        </div>
+          </div>
+          
+
+
+          
           
 
     </div>
