@@ -6,7 +6,9 @@ const accountPagesData = [
     {
         id: 1,
         icon: <BsPersonHeart />,
-        optionName: "Profile"
+        optionName: "Profile",
+        path: "/profile"
+
     },
     {
         id: 2,
