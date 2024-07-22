@@ -13,23 +13,26 @@ export const Navbar = () => {
     '/dashboard': 'Dashboard',
     '/billing': 'Billing',
     '/tables': 'Tables',
-    '/virtual-reality':'Virtual Reality'
+    '/virtual-reality': 'Virtual Reality',
+    '/profile': 'Profile'
     // Add other routes as needed
   };
 
   const currentPathName = pathNameMap[location.pathname] || 'Dashboard';
 
+  const textColorClass = currentPathName === 'Profile' ? 'text-white' : 'text-[#344767]';
+
   return (
     <>
-      <div className='pt-3 sticky'>
+      <div className='pt-3 sticky px-4'>
         <div className='py-4 flex justify-between'>
           <div>
             <div className='flex space-x-2 pt-[2px]'>
-              <IoMdHome className='text-[#96A0B1] mt-1' />
-              <h3 className='text-gray-500'>/</h3> 
-              <h3 className='text-[#344767] font-normal'>{currentPathName}</h3>
+              <IoMdHome className={`mt-1 ${textColorClass}`} />
+              <h3 className={textColorClass}>/</h3>
+              <h3 className={`font-normal ${textColorClass}`}>{currentPathName}</h3>
             </div>
-            <h3 className='pt-[2px] font-bold text-[#344767] text-md'>{currentPathName}</h3>
+            <h3 className={`pt-[2px] font-bold ${textColorClass} text-md`}>{currentPathName}</h3>
           </div>
           <div className='flex space-x-3 justify-center items-center'>
             <div className='flex bg-white rounded-lg border border-gray-300 w-[220px]'>
@@ -41,11 +44,11 @@ export const Navbar = () => {
               </div>
             </div>
             <div className='flex items-center space-x-1'>
-              <FaUserCircle className='text-[#344767]' />
-              <span className='text-[#344767] text-[14px] font-semibold'>Sign in</span>
+              <FaUserCircle className={textColorClass} />
+              <span className={`text-[14px] font-semibold ${textColorClass}`}>Sign in</span>
             </div>
-            <IoIosSettings className='text-[#344767]' />
-            <FaBell className='text-[#344767] text-sm'/>
+            <IoIosSettings className={textColorClass} />
+            <FaBell className={`text-sm ${textColorClass}`} />
           </div>
         </div>
       </div>
