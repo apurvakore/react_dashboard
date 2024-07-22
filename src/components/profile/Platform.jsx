@@ -1,5 +1,11 @@
 import React from "react";
 import { HiPencil } from "react-icons/hi";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
+
+
 
 import platformInfoData from "../../data/profile/platformInfo";
 
@@ -14,7 +20,7 @@ export const Platform = () => {
             </span>
 
             {/* Account Section */}
-            <div className="pb-5 ">
+            <div className="pb-4 ">
               <span className="text-xs font-bold text-[#67748E] ">ACCOUNT</span>
               {platformInfoData.account.map((item, index) => (
                 <div key={index} className="pt-5 pb-2">
@@ -58,7 +64,9 @@ export const Platform = () => {
             </div>
           </div>
         </div>
-      </div>
+        </div>
+          
+
 
       <div className="w-[33%] mt-3 bg-white rounded-xl">
         <div className="p-3 pt-4">
@@ -68,13 +76,40 @@ export const Platform = () => {
             </span>
             <HiPencil className="mt-1 text-[#8392AB]" />
           </div>
-          <p className="pt-5 text-[#707C95] text-m">
+          <p className="pt-5 text-[#67748E] text-sm font-medium">
             Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is
             no. If two equally difficult paths, choose the one more painful in
             the short term (pain avoidance is creating an illusion of equality).
-          </p>
+                  </p>
+                  <div className="mt-12 flex flex-col space-y-5">
+                        <div className="flex space-x-2 items-center">
+                          <span className="text-[#344767] text-sm font-bold">Full Name:</span>
+                          <span className="text-sm text-[#67748E] font-normal">Alec M. Thompson</span>
+                      </div>
+                      <div className="flex space-x-2 items-center">
+                          <span className="text-[#344767] text-sm font-bold">Mobile:</span>
+                          <span className="text-sm text-[#67748E] font-normal">(44) 123 1234 123</span>
+                      </div>
+                      <div className="flex space-x-2 items-center">
+                          <span className="text-[#344767] text-sm font-bold">Email:</span>
+                          <span className="text-sm text-[#67748E] font-normal">alecthompson@mail.com</span>
+                      </div>
+                      <div className="flex space-x-2 items-center">
+                          <span className="text-[#344767] text-sm font-bold">Location:</span>
+                          <span className="text-sm text-[#67748E] font-normal">USA</span>
+                      </div>
+                      <div className="flex space-x-3 items-center">
+                          <span className="text-[#344767] text-sm font-bold">Social: </span>
+                          <FaFacebookSquare className="text-[#3B5998]"/>
+                          <FaTwitter className="text-[#55ACEE]"/>
+                          <FaInstagram className="text-[#125688]" />
+                      </div>
+            </div>
+                  
         </div>
-      </div>
+        </div>
+          
+
     </div>
   );
 };
