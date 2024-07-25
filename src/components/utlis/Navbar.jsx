@@ -20,7 +20,7 @@ export const Navbar = () => {
 
   const currentPathName = pathNameMap[location.pathname] || 'Dashboard';
 
-  const textColorClass = currentPathName === 'Profile' ? 'text-white' : 'text-[#344767]';
+  const textColorClass = currentPathName === 'Profile' ? 'text-white cursor-pointer' : 'text-[#344767] cursor-pointer';
 
   return (
     <>
@@ -43,7 +43,7 @@ export const Navbar = () => {
                 <input type="text" className='focus:outline-none text-sm' placeholder='Type here...' />
               </div>
             </div>
-            <div className='flex items-center space-x-1'>
+            <div className='flex items-center space-x-1 cursor-pointer'>
               <FaUserCircle className={textColorClass} />
               <span className={`text-[14px] font-semibold ${textColorClass}`}>Sign in</span>
             </div>
