@@ -1,7 +1,7 @@
 const authorsData = [
     {
         id:1,
-        profileImage:"https://img.freepik.com/free-psd/3d-illusdivation-person-widiv-sunglasses_23-2149436178.jpg",
+        profileImage:"https://themewagon.github.io/soft-ui-dashboard-react/static/media/team-2.e725aef8c892cb21f262.jpg",
         name:"John Michael",
         email:"john@creative-tim.com",
         role:"Manager",
@@ -11,7 +11,7 @@ const authorsData = [
     },
     {
         id:2,
-        profileImage:"https://img.freepik.com/free-psd/3d-illusdivation-human-avatar-profile_23-2150671142.jpg",
+        profileImage:"https://themewagon.github.io/soft-ui-dashboard-react/static/media/team-3.b75146da5bfdf9d8ae61.jpg",
         name:"Alexa Liras",
         email:"alexa@creative-tim.com",
         role:"Programator",
@@ -21,7 +21,7 @@ const authorsData = [
     },
     {
         id:3,
-        profileImage:"https://img.freepik.com/free-psd/3d-illusdivation-human-avatar-profile_23-2150671116.jpg",
+        profileImage:"https://themewagon.github.io/soft-ui-dashboard-react/static/media/team-4.a1e1c29f1b839ddae393.jpg",
         name:"Laurent Perrier",
         email:"laurent@creative-tim.com",
         role:"Executive",
@@ -31,7 +31,7 @@ const authorsData = [
     },
     {
         id:4,
-        profileImage:"https://img.freepik.com/free-psd/3d-illusdivation-person-widiv-sunglasses_23-2149436188.jpg",
+        profileImage:"https://themewagon.github.io/soft-ui-dashboard-react/static/media/team-3.b75146da5bfdf9d8ae61.jpg",
         name:"Michael Levi",
         email:"michael@creative-tim.com",
         role:"Programator",
@@ -41,7 +41,7 @@ const authorsData = [
     },
     {
         id:5,
-        profileImage:"https://img.freepik.com/premium-psd/3d-rendering-avatar_23-2150833566.jpg",
+        profileImage:"https://themewagon.github.io/soft-ui-dashboard-react/static/media/team-2.e725aef8c892cb21f262.jpg",
         name:"Richard Gran",
         email:"richard@creative-tim.com",
         role:"Manager",
@@ -51,7 +51,7 @@ const authorsData = [
     },
     {
         id:6,
-        profileImage:"https://img.freepik.com/premium-psd/designer-man-3d-icon-avatar-people_431668-1343.jpg",
+        profileImage:"https://themewagon.github.io/soft-ui-dashboard-react/static/media/team-4.a1e1c29f1b839ddae393.jpg",
         name:"Miriam Eric",
         email:"miriam@creative-tim.com",
         role:"Programator",
