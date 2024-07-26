@@ -6,6 +6,8 @@ import { Navbar } from './components/utlis/Navbar';
 import SidePanel from './components/utlis/SidePanel';
 import TablesTab from './components/tables/TablesTab';
 import { Profile } from './components/profile/Profile';
+import { SignUp } from './components/signup/SignUp';
+import { SignIn } from './components/signIn/SignIn';
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/billing" element={<BillingTab />} /> 
                 <Route path="/tables" element={<TablesTab />} />
-              <Route path="/profile" element={ <Profile/>} />
+              <Route path="/profile" element={<Profile />} />
+              <Route path='/signup' element={<SignUp />} />
+              <Route path='/signin' element={<SignIn/>} />
               </Routes>
               <Credits/>
             </div>

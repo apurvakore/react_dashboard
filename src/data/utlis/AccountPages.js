@@ -13,12 +13,14 @@ const accountPagesData = [
     {
         id: 2,
         icon:<MdLibraryBooks />,
-        optionName: "Sign In"
+        optionName: "Sign In",
+        path: "/signin"
     },
     {
         id: 3,
         icon: <MdRocketLaunch />,
-        optionName: "Sign Up"
+        optionName: "Sign Up",
+        path: "/signup"
     },
 ]
 

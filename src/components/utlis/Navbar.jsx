@@ -14,7 +14,9 @@ export const Navbar = () => {
     '/billing': 'Billing',
     '/tables': 'Tables',
     '/virtual-reality': 'Virtual Reality',
-    '/profile': 'Profile'
+    '/profile': 'Profile',
+    '/signup': 'Sign Up',
+    '/signin':'Sign In'
     // Add other routes as needed
   };
 
@@ -25,7 +27,8 @@ export const Navbar = () => {
   return (
     <>
       <div className='pt-3 sticky px-4'>
-        <div className='py-4 flex justify-between'>
+        <div className={`py-4 ${currentPathName==='Sign Up' || currentPathName=== 'Sign In'? 'hidden' : 'flex justify-between'} `}>
+      
           <div>
             <div className='flex space-x-2 pt-[2px]'>
               <IoMdHome className={`mt-1 ${textColorClass}`} />
