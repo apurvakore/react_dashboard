@@ -8,7 +8,7 @@ import { FaUser } from 'react-icons/fa';
 
 export const Navbar = () => {
     return (
-    <>
+        <>
         <div className='m-6 bg-white px-2 py-4 rounded-full shadow-lg'>
                 <div className='flex justify-between items-center mx-6'>
                     <h3 className='text-[#344767] font-bold text-sm'>Soft UI Dashboard</h3>

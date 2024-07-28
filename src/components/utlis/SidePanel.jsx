@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import SidePanelItem from './SidePanelItem';
 import sidePanelData from '../../data/utlis/SidePanel'
 import accountPagesData from '../../data/utlis/AccountPages';
+import { useLocation } from 'react-router-dom';
+
 
 const SidePanel = () => {
   const [activeItemId, setActiveItemId] = useState(1); // Default to first item
@@ -23,8 +25,25 @@ const SidePanel = () => {
     navigate(path);
   };
 
+
+  const location = useLocation();
+
+  const pathNameMap = {
+    '/dashboard': 'Dashboard',
+    '/billing': 'Billing',
+    '/tables': 'Tables',
+    '/virtual-reality': 'Virtual Reality',
+    '/profile': 'Profile',
+    '/signup': 'Sign Up',
+    '/signin':'Sign In'
+    // Add other routes as needed
+  };
+
+  const currentPathName = pathNameMap[location.pathname] || 'Dashboard';
+
+
   return (
-    <div className='fixed top-0 left-0 w-[20%] 2xl:w-[18%] h-screen bg-[#F7F9FB] flex flex-col overflow-y-auto'>
+    <div className={` ${currentPathName==='Sign Up' || currentPathName=== 'Sign In'? 'hidden' : ' fixed top-0 left-0 w-[20%] 2xl:w-[18%] h-screen bg-[#F7F9FB] flex flex-col overflow-y-auto'}`}>
       <div className="flex flex-col justify-start pt-6 px-5 w-full">
         <div className="flex items-center pb-4 px-3 border-b">
           <div className="icon rotate-180 text-4xl text-[#353536] p-1 font-bold"><CiBoxes/></div>
