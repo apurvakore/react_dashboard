@@ -11,11 +11,11 @@ export const Authors = ({ image, title, icon1, icon2, budget, width, color1, col
         <div className='flex justify-between pt-2'>
             <div className='w-[100%]'>
                 <div className='row px-4 flex  py-4 space-x-2 text-[13px] font-bold'>
-                    <div className='text-xs w-[40%] text-[#A8B2C4] flex justify-start pl-2 items-center'>AUTHOR</div>
-                    <div className='text-xs w-[15%] text-[#A8B2C4] flex justify-start'>FUNCTION</div>
-                    <div className='text-xs w-[15%] text-[#A8B2C4] flex justify-center'>STATUS</div>
-                    <div className='text-xs w-[15%] text-[#A8B2C4] flex justify-center'>EMPLOYED</div>
-                    <div className='text-xs w-[15%] text-[#A8B2C4] flex justify-center'>ACTION</div>
+                    <div className='text-xs w-[50%] md:w-[40%] text-[#A8B2C4] flex justify-start pl-2 items-center'>AUTHOR</div>
+                    <div className='text-xs w-[25%] md:w-[15%] text-[#A8B2C4] flex justify-start'>FUNCTION</div>
+                    <div className='text-xs w-[25%] md:w-[15%] text-[#A8B2C4] flex justify-center'>STATUS</div>
+                    <div className='hidden text-xs w-[15%] text-[#A8B2C4] md:flex justify-center'>EMPLOYED</div>
+                    <div className='hidden text-xs w-[15%] text-[#A8B2C4] md:flex justify-center'>ACTION</div>
                 </div>
                 <div>
                         {authorsData.map((author, index) => (

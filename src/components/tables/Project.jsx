@@ -16,10 +16,10 @@ export const Projects = ({ image, title, icon1, icon2, budget, width, color1, co
         <div className='flex justify-between pt-8'>
             <div className='w-[100%]'>
                 <div className='row px-4 flex border-b py-4 space-x-2 text-[13px] font-bold'>
-                    <div className='text-xs w-[45%] text-[#A8B2C4] flex justify-start pl-2 items-center'>COMPANIES</div>
-                    <div className='text-xs w-[15%] text-[#A8B2C4] flex justify-start'>MEMBERS</div>
-                    <div className='text-xs w-[10%] text-[#A8B2C4] flex justify-start'>BUDGET</div>
-                    <div className='text-xs w-[30%] text-[#A8B2C4] flex justify-center'>COMPLETION</div>
+                    <div className='text-xs w-[50%]  md:w-[45%] text-[#A8B2C4] flex justify-start pl-2 items-center'>COMPANIES</div>
+                    <div className='text-xs w-[30%] md:w-[15%] text-[#A8B2C4] flex justify-start'>MEMBERS</div>
+                    <div className='text-xs w-[20%] md:w-[10%] text-[#A8B2C4] flex justify-start'>BUDGET</div>
+                    <div className='hidden text-xs w-[30%] text-[#A8B2C4] md:flex justify-center'>COMPLETION</div>
                 </div>
                 <div>
                         {projectsData.map((project, index) => (
