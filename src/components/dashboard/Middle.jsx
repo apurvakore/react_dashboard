@@ -4,8 +4,8 @@ import { FaArrowRight } from "react-icons/fa6";;
 export const Middle = () => {
   return (
     <>
-    <div className='flex space-x-5 bg-[#F3F4F5] '>
-      <div className='flex justify-start w-[50%]'>
+      <div className='flex flex-col md:flex-row md:space-x-5 space-y-4 md:space-y-0 bg-[#F3F4F5] '>
+      <div className='card1 flex justify-start md:w-[50%] w-[100%] '>
           <div className=' rounded-lg bg-[#FFFFFF]  flex w-[100%] p-4'>
             <div className='w-[60%] flex flex-col justify-between pt-3 pl-2'>
               <div className='pb-5'>
@@ -30,7 +30,7 @@ export const Middle = () => {
           </div>
         </div>
   
-        <div className='relative rounded-lg p-4 bg-white w-[50%]'>
+        <div className=' card2 relative rounded-lg p-4 bg-white w-[100%] md:w-[50%]'>
           <div className='relative h-[220px]  '>
             <img
               className='h-[220px] w-[100%] object-cover rounded-lg '

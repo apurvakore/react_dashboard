@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className='flex bg-[#F4F5F6]'>
           <SidePanel />
-          <div className="flex-1 ml-[20%] 2xl:ml-[18%] px-5 2xl:px-8 overflow-x-hidden"> 
+          <div className="flex-1 md:ml-[20%] 2xl:ml-[18%] px-5 2xl:px-8 overflow-x-hidden"> 
             <Navbar />
             <div className="routes">
               <Routes>
