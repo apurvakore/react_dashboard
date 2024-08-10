@@ -10,19 +10,19 @@ export const BillingTab = () => {
   return (
     <>
       <div className=''>
-          <div className='flex mt-8'>
-              <div className='w-[65%]    mr-6'>
+          <div className='flex flex-col md:flex-row space-y-4 md:space-y-0 mt-8'>
+              <div className='w-[100%] md:w-[65%] mr-6'>
                 <CreditCard/>
               </div>
-              <div className='w-[35%] '>
+              <div className='w-[100%] md:w-[35%] '>
                 <Invoices/>
               </div>
           </div>
-          <div className='flex mt-8'>
-            <div className='w-[60%]  '>
+          <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row mt-8'>
+            <div className=' w-[100%] md:w-[60%]  '>
               <BillingInfo/>
             </div>
-            <div className='w-[40%] '>
+            <div className=' w-[100%] md:w-[40%] '>
               <Transcations/>
             </div>
           </div>

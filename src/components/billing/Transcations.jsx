@@ -4,7 +4,7 @@ import transcationInfoData from '../../data/billing/transcationInfo'
 
 const Transcations = () => {
   return (
-    <div className='ml-4 pb-10 bg-white rounded-xl'>
+    <div className='md:ml-4 pb-10 bg-white rounded-xl'>
       <div className='flex pt-6 px-3 justify-between'>
         <h6 className='text-[#344767] font-bold'> Your Transaction's</h6>
         <div className='flex space-x-1 items-center'>

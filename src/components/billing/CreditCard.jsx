@@ -10,11 +10,11 @@ import { FaPlus } from "react-icons/fa";
 export const CreditCard = () => {
     return (
         <div>
-            <div className='flex'>
-                <div className='w-[50%] mr-6 '>
+            <div className='flex flex-col md:flex-row space-y-4 md:space-y-0'>
+                <div className=' w-[100%] md:w-[50%] mr-6 '>
                     <img src="https://i.ibb.co/xFzCSX8/Screenshot-2024-07-08-165432.png" className='rounded-xl h-[100%] ' alt="" />
                 </div>
-                <div className='w-[25%]  bg-white flex flex-col  items-center   rounded-xl mr-6'>
+                <div className='w-[100%] md:w-[25%]  s bg-white flex flex-col  items-center   rounded-xl mr-6'>
                     <div className='w-fit p-3 xl:p-[16px]  h-fit rounded-[9px] bg-gradient-to-br from-[#21CDFD] to-[#1F61F1] my-4'>
                             <div className='flex items-center justify-center'><BiSolidBank className='text-white text-[28px]' /></div>
                         </div>
@@ -23,10 +23,11 @@ export const CreditCard = () => {
                  
                     <span className='text-[#344767] font-semibold border border-t-1 border-l-0 border-b-0 border-r-0 py-4 text-xl'>+$2000</span>
                 </div>
-                <div className='w-[25%]  bg-white flex flex-col  items-center   rounded-xl '>
+                <div className='w-[100%] md:w-[25%]  bg-white flex flex-col  items-center   rounded-xl '>
                     <div className='w-fit p-3 xl:p-[16px]  h-fit rounded-[9px] bg-gradient-to-br from-[#21CDFD] to-[#1F61F1] my-4'>
-                            <div className='flex items-center justify-center'><FaPaypal className='text-white text-[28px]' /></div>
+                        <div className='flex items-center justify-center'><FaPaypal className='text-white text-[28px]' />
                         </div>
+                    </div>
                     <span className='text-[#344767] font-semibold mb-2'>Paypal</span>
                     <span className='text-xs text-[#8A94A8] font-semibold mb-4'>Freelance Payment</span>
                  
@@ -45,15 +46,15 @@ export const CreditCard = () => {
                       
                     </div>
                 </div>
-                <div className='mx-3 mb-4 flex'>
-                    <div className='border flex justify-between items-center  py-6 w-[50%] rounded-xl mr-4'>
+                <div className='mx-3 mb-4 flex flex-col md:flex-row space-y-3 md:space-y-0'>
+                    <div className='border flex justify-between items-center  py-6 w-[100%] md:w-[50%] rounded-xl mr-4'>
                         <img className='h-[26px] mx-3' src="https://themewagon.github.io/soft-ui-dashboard-react/static/media/mastercard.27fca3e7637a9458fb64.png" alt="" />
                         <div className='text-[#344767] font-semibold'>****  ****  ****  7852</div>
                         <div className="mx-3">
                             <MdModeEdit className='text-[20px] text-[#344767]' />
                         </div>
                     </div>
-                    <div className='border flex  justify-between items-center  py-6 w-[50%] rounded-xl'>
+                    <div className='border flex  justify-between items-center  py-6 w-[100%] md:w-[50%] rounded-xl'>
                         <img className='h-[26px] mx-3' src="https://themewagon.github.io/soft-ui-dashboard-react/static/media/visa.71c0d5e9e2aaee42e4c3.png" alt="" />
                         <div className='text-[#344767] font-semibold'>****  ****  ****  5248</div>
                         <div className="mx-3">
