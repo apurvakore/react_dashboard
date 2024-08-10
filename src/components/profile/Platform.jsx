@@ -11,8 +11,8 @@ import conversationData from "../../data/profile/conversationData";
 
 export const Platform = () => {
   return (
-    <div className="flex space-x-5">
-      <div className="w-[33%] mt-3 bg-white rounded-xl">
+    <div className="flex flex-col md:flex-row md:space-x-5 space-y-5 md:space-y-0">
+      <div className="w-[100%] md:w-[33%] mt-3 bg-white rounded-xl">
         <div className="">
           <div className="flex flex-col p-3 space-y-4">
             <span className="text-[#344767] font-semibold pt-2">
@@ -68,7 +68,7 @@ export const Platform = () => {
           
 
 
-      <div className="w-[33%] mt-3 bg-white rounded-xl">
+      <div className="w-[100%] md:w-[33%] mt-3 bg-white rounded-xl">
         <div className="p-3 pt-4">
           <div className="flex justify-between">
             <span className="text-[#344767] font-semibold">
@@ -110,26 +110,26 @@ export const Platform = () => {
           </div>
           
 
-          <div className="w-[33%] mt-3 bg-white rounded-xl">
-      <div className="p-4">
-        <span className="text-[#344767] font-semibold">Conversations</span>
-      </div>
-      <div className="p-5">
-        {conversationData.map((conversation, index) => (
-          <div key={index} className="flex justify-between mb-4 items-center">
-            <div className="flex space-x-4 pb-2 items-center">
-              <img className="w-[50px] h-[50px] rounded-xl" src={conversation.profileImage} alt={conversation.name} />
-              <div className="flex flex-col">
-                <span className="text-[#344767] font-semibold">{conversation.name}</span>
-                <p className="text-xs text-[#697690]">{conversation.para}</p>
-              </div>
+          <div className=" w-[100%] md:w-[33%]  mt-3 bg-white rounded-xl">
+            <div className="p-4">
+              <span className="text-[#344767] font-semibold">Conversations</span>
             </div>
-            <div>
-              <button className="text-[#3ACAEB] font-bold text-xs">REPLY</button>
+            <div className="p-5">
+              {conversationData.map((conversation, index) => (
+                <div key={index} className="flex justify-between mb-4 items-center">
+                  <div className="flex space-x-4 pb-2 items-center">
+                    <img className="w-[50px] h-[50px] rounded-xl" src={conversation.profileImage} alt={conversation.name} />
+                    <div className="flex flex-col">
+                      <span className="text-[#344767] font-semibold">{conversation.name}</span>
+                      <p className="text-xs text-[#697690]">{conversation.para}</p>
+                    </div>
+                  </div>
+                  <div>
+                    <button className="text-[#3ACAEB] font-bold text-xs">REPLY</button>
+                  </div>
+                </div>
+              ))}
             </div>
-          </div>
-        ))}
-      </div>
     </div>
           
 

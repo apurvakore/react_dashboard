@@ -22,7 +22,7 @@ export const Navbar = () => {
 
   const currentPathName = pathNameMap[location.pathname] || 'Dashboard';
 
-  const textColorClass = currentPathName === 'Profile' ? 'text-white cursor-pointer' : 'text-[#344767] cursor-pointer';
+  const textColorClass = currentPathName === 'Profile' ? 'text-white cursor-pointer ' : 'text-[#344767] cursor-pointer';
 
   return (
     <>
