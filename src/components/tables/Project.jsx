@@ -5,7 +5,7 @@ import projectsData from '../../data/dashboard/Project';
 
 export const Projects = ({ image, title, icon1, icon2, budget, width, color1, color2 }) => {
   return (
-    <div className='rounded-xl my-7 py-4 bg-white mr-5 h-[100%]'>
+    <div className='rounded-xl my-7 py-4 bg-white  h-[100%]'>
         <h6 className='text-[#344767] px-4 font-bold '>Projects</h6> 
         <div className='flex px-4 space-x-1 pt-1'>
             <FaCheck className='mt-1 text-[#1BC2E8]'/>
