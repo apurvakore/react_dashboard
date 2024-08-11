@@ -8,7 +8,7 @@ import { useLocation } from 'react-router-dom';
 import { TbLayoutSidebarLeftExpandFilled } from "react-icons/tb";
 
 
-export const Navbar = () => {
+export const Navbar = ({ toggleSidebar }) => {
   const location = useLocation();
 
   const pathNameMap = {
@@ -53,7 +53,7 @@ export const Navbar = () => {
                 <FaUserCircle className={textColorClass} />
                 <span className={` hidden md:flex text-[14px] font-semibold ${textColorClass}`}>Sign in</span>
               </div>
-              <div className={`toggleSidebar-button ${textColorClass} text-lg flex items-center md:hidden`}>
+              <div className={`toggleSidebar-button ${textColorClass} text-lg flex items-center md:hidden`} onClick={toggleSidebar}>
                 <TbLayoutSidebarLeftExpandFilled />
               </div>
               <div className='flex space-x-3 md:space-x-4 items-center'>

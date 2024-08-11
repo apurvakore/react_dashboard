@@ -1,4 +1,5 @@
 import './App.css';
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { BillingTab } from './components/billing/BillingTab'; import Credits from './components/utlis/Credits';
 import { Dashboard } from './components/dashboard/Dashboard';
@@ -8,14 +9,23 @@ import TablesTab from './components/tables/TablesTab';
 import { Profile } from './components/profile/Profile';
 import { SignUp } from './components/signup/SignUp';
 import { SignIn } from './components/signIn/SignIn';
+import MobileSidePanel from './components/utlis/MobileSidePanel';
 
 function App() {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
     <Router>
       <div className='flex bg-[#F4F5F6]'>
-          <SidePanel />
-          <div className="flex-1 md:ml-[20%] 2xl:ml-[18%] px-5 2xl:px-8 overflow-x-hidden"> 
-            <Navbar />
+          <div className=""><MobileSidePanel isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar}/></div>
+          <div className=""><SidePanel /></div>
+          <div className={`md:flex-1 md:ml-[20%] 2xl:ml-[18%] px-5 2xl:px-8 overflow-x-hidden afterthis flex flex-col transition-all duration-300 ease-in-out ${isSidebarOpen && 'overflow-hidden md:overflow-visible'}`}> 
+            {/* flex flex-col min-h-screen transition-all duration-300 ease-in-out ${isSidebarOpen && 'overflow-hidden md:overflow-visible'} */}
+            <Navbar toggleSidebar={toggleSidebar}  />
             <div className="routes">
               <Routes>
                 <Route path="/" element={<Navigate to="/dashboard" />} />
