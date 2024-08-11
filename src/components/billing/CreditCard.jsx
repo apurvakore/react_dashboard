@@ -3,6 +3,7 @@ import { BiSolidBank } from "react-icons/bi";
 import { FaPaypal } from "react-icons/fa";
 import { MdModeEdit } from "react-icons/md";
 import { FaPlus } from "react-icons/fa";
+import { IoIosWifi } from "react-icons/io";
 
 
 
@@ -12,7 +13,29 @@ export const CreditCard = () => {
         <div>
             <div className='flex flex-col md:flex-row space-y-4 md:space-y-0'>
                 <div className=' w-[100%] md:w-[50%] mr-6 '>
-                    <img src="https://i.ibb.co/xFzCSX8/Screenshot-2024-07-08-165432.png" className='rounded-xl h-[100%] ' alt="" />
+                    <div className="bg-gradient-to-r from-[#363F6D] to-[#121423] rounded-xl h-[230px] md:h-[100%] px-5 pt-6">
+                            <div className="wifi-symbol flex items-center h-[20%] text-white text-2xl mb-"><IoIosWifi /></div>
+                            <div className="flex items-center h-[30%] text-white text-xl font-semibold space-x-3">
+                                <p className="">4562</p>
+                                <p className="">1122</p>
+                                <p className="">4594</p>
+                                <p className="">7852</p>
+                            </div>
+                            <div className="flex items-center h-[50%] justify-between">
+                                <div className="card-holder">
+                                    <p className="text-[#CFD0D6] text-sm">Card Holder</p>
+                                    <p className="text-white font-semibold text-[16px]">Jack Peterson</p>
+                                </div>
+                                <div className="expiry">
+                                    <p className="text-[#CFD0D6] text-sm">Expires</p>
+                                    <p className="text-white font-semibold text-[16px]">11/22</p>
+                                </div>
+                                <div className="icon">
+                                    <img className='w-[35px]' src="https://i.ibb.co/q11FVV4/mastercardlogo-removebg-preview.png" alt="master-card-log" />
+                                </div>
+                            </div>
+                    </div>
+                    {/* <img src="https://i.ibb.co/xFzCSX8/Screenshot-2024-07-08-165432.png" className='rounded-xl h-[100%] ' alt="" /> */}
                 </div>
                 <div className='w-[100%] md:w-[25%]  s bg-white flex flex-col  items-center   rounded-xl mr-6'>
                     <div className='w-fit p-3 xl:p-[16px]  h-fit rounded-[9px] bg-gradient-to-br from-[#21CDFD] to-[#1F61F1] my-4'>
