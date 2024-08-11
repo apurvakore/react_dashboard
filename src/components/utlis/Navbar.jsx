@@ -49,16 +49,16 @@ export const Navbar = ({ toggleSidebar }) => {
               </div>
             </div>
             <div className='flex space-x-3 md:space-x-4'>
-              <div className='flex items-center space-x-1 cursor-pointer'>
+              <div className='flex items-center text-xl md:text-lg space-x-1 cursor-pointer'>
                 <FaUserCircle className={textColorClass} />
                 <span className={` hidden md:flex text-[14px] font-semibold ${textColorClass}`}>Sign in</span>
               </div>
-              <div className={`toggleSidebar-button ${textColorClass} text-lg flex items-center md:hidden`} onClick={toggleSidebar}>
+              <div className={`toggleSidebar-button ${textColorClass} text-2xl md:text-lg flex items-center md:hidden`} onClick={toggleSidebar}>
                 <TbLayoutSidebarLeftExpandFilled />
               </div>
-              <div className='flex space-x-3 md:space-x-4 items-center'>
+              <div className='flex space-x-3 text-2xl md:text-lg md:space-x-4 items-center'>
                 <IoIosSettings className={textColorClass} />
-                <FaBell className={`text-sm ${textColorClass}`} />
+                <FaBell className={` text-lg md:text-sm ${textColorClass}`} />
               </div>
             </div>
           </div>
