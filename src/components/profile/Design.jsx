@@ -7,7 +7,7 @@ export const Design = () => {
     <>
           <div className='mt-5  bg-white shadow-sm rounded-xl'>
               <div className='pt-3 px-4 pb-5 flex flex-col space-y-5'>
-                  <h6 className='text-[#b5c9eb] font-semibold'>Projects</h6>
+                  <h6 className='text-[#344767] font-semibold'>Projects</h6>
                   <span className='text-[#727E96] text-sm font-medium'>Architects design houses</span>
                   <div className='flex flex-col md:flex-row space-y-9 md:space-y-0 md:space-x-5'>
             

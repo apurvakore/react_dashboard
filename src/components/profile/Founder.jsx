@@ -27,7 +27,7 @@ const Founder = () => {
               <div className="designation text-sm font-semibold text-[#67748E]">CEO / Co-Founder</div>
             </div>
           </div>
-          <div className="features flex space-x-4 items-center text-[#344767]">
+          <div className="features flex-col md:flex-row space-y-1 md:space-y-0 md:space-x-4 items-center text-[#344767]">
             {features.map((feature) => (
               <div
                 key={feature.name}
