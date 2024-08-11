@@ -2,8 +2,8 @@ import React from 'react'
 
 const Credits = () => {
   return (
-    <div className='flex flex-col my-6 justify-center items-center'>
-        <h2 className='text-[#67748E] font-semibold'>  © 2024, Crafted with <span>❤️</span> by Simona & Jonathan</h2>
+    <div className='flex flex-col px-5 md:px-0 my-6 justify-center items-center'>
+        <div className='text-[#67748E] font-semibold flex justify-center'> <div className='text-center'>  © 2024, Crafted with ❤️ by Simona & Jonathan</div></div>
     </div>
   )
 }
