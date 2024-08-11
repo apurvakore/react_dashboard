@@ -26,8 +26,8 @@ const ActiveUser = () => {
                 <div className="flex flex-col">
                     <div className="text-2xl font-bold text-[#344767] mb-2">36K</div>
                     <div className="progress-bar">
-                        <div class="w-full flex items-center bg-[#E9ECEF] rounded-full h-1 ">
-                            <div class="bg-[#344767] h-1.5 rounded-full" style={{"width": "50%"}}></div>
+                        <div className="w-full flex items-center bg-[#E9ECEF] rounded-full h-1 ">
+                            <div className="bg-[#344767] h-1.5 rounded-full" style={{"width": "50%"}}></div>
                         </div>
                     </div>
                 </div>
@@ -40,8 +40,8 @@ const ActiveUser = () => {
                 <div className="flex flex-col">
                     <div className="text-2xl font-bold text-[#344767] mb-2">2M</div>
                     <div className="progress-bar">
-                        <div class="w-full flex items-center bg-[#E9ECEF] rounded-full h-1 ">
-                            <div class="bg-[#344767] h-1.5 rounded-full" style={{"width": "85%"}}></div>
+                        <div className="w-full flex items-center bg-[#E9ECEF] rounded-full h-1 ">
+                            <div className="bg-[#344767] h-1.5 rounded-full" style={{"width": "85%"}}></div>
                         </div>
                     </div>
                 </div>
@@ -54,8 +54,8 @@ const ActiveUser = () => {
                 <div className="flex flex-col">
                     <div className="text-2xl font-bold text-[#344767] mb-2">$435</div>
                     <div className="progress-bar">
-                        <div class="w-full flex items-center bg-[#E9ECEF] rounded-full h-1 ">
-                            <div class="bg-[#344767] h-1.5 rounded-full" style={{"width": "30%"}}></div>
+                        <div className="w-full flex items-center bg-[#E9ECEF] rounded-full h-1 ">
+                            <div className="bg-[#344767] h-1.5 rounded-full" style={{"width": "30%"}}></div>
                         </div>
                     </div>
                 </div>
@@ -68,8 +68,8 @@ const ActiveUser = () => {
                 <div className="flex flex-col">
                     <div className="text-2xl font-bold text-[#344767] mb-2">43</div>
                     <div className="progress-bar">
-                        <div class="w-full flex items-center bg-[#E9ECEF] rounded-full h-1 ">
-                            <div class="bg-[#344767] h-1.5 rounded-full" style={{"width": "40%"}}></div>
+                        <div className="w-full flex items-center bg-[#E9ECEF] rounded-full h-1 ">
+                            <div className="bg-[#344767] h-1.5 rounded-full" style={{"width": "40%"}}></div>
                         </div>
                     </div>
                 </div>
