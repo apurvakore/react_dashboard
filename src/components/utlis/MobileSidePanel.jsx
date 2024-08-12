@@ -42,7 +42,7 @@ const MobileSidePanel = ({ isSidebarOpen, toggleSidebar }) => {
   return (
     <>
       {isSidebarOpen && <div className="fixed inset-0 bg-black opacity-50 z-40" onClick={toggleSidebar}></div>}
-      <div className={`fixed top-0 left-0 w-[80%] 2xl:w-[18%] h-screen bg-[#F7F9FB] z-50 transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
+      <div className={`fixed top-0 left-0 w-[80%] 2xl:w-[18%] h-screen bg-[#F7F9FB] z-50 transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out overflow-y-auto`}>
         <div className="flex flex-col justify-start pt-6 px-5 w-full">
           <div className="flex items-center justify-between pb-4 px-3 border-b">
             <div className="icon rotate-180 text-4xl text-[#353536] p-1 font-bold"><CiBoxes /></div>

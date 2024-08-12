@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { BillingTab } from './components/billing/BillingTab'; import Credits from './components/utlis/Credits';
 import { Dashboard } from './components/dashboard/Dashboard';
@@ -18,6 +18,17 @@ function App() {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
+  useEffect(() => {
+    if (isSidebarOpen) {
+      document.body.style.overflow = 'hidden';  // Prevent body scroll
+    } else {
+      document.body.style.overflow = 'auto';  // Allow body scroll
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto';  // Cleanup on unmount
+    };
+  }, [isSidebarOpen]);
   return (
     <Router>
       <div className='flex bg-[#F4F5F6]'>
