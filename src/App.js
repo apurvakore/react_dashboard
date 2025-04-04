@@ -12,7 +12,7 @@ import { SignIn } from './components/signIn/SignIn';
 import MobileSidePanel from './components/utlis/MobileSidePanel';
 
 function App() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
